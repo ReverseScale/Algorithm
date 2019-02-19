@@ -12,9 +12,10 @@
 		522402F6221A4AA300B0EE3D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 522402F4221A4AA300B0EE3D /* Main.storyboard */; };
 		522402F8221A4AA600B0EE3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 522402F7221A4AA600B0EE3D /* Assets.xcassets */; };
 		522402FB221A4AA600B0EE3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 522402F9221A4AA600B0EE3D /* LaunchScreen.storyboard */; };
-		52240304221A4AB800B0EE3D /* LeetCode01.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52240303221A4AB800B0EE3D /* LeetCode01.swift */; };
 		52240307221A4AC000B0EE3D /* BinarySearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52240305221A4AC000B0EE3D /* BinarySearch.swift */; };
 		52240308221A4AC000B0EE3D /* Sork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52240306221A4AC000B0EE3D /* Sork.swift */; };
+		5224030B221A4C4C00B0EE3D /* LeetCode001.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5224030A221A4C4C00B0EE3D /* LeetCode001.swift */; };
+		5224033B221BE53A00B0EE3D /* LeetCode167.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5224033A221BE53900B0EE3D /* LeetCode167.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,9 +26,10 @@
 		522402F7221A4AA600B0EE3D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		522402FA221A4AA600B0EE3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		522402FC221A4AA600B0EE3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		52240303221A4AB800B0EE3D /* LeetCode01.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeetCode01.swift; sourceTree = "<group>"; };
 		52240305221A4AC000B0EE3D /* BinarySearch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BinarySearch.swift; sourceTree = "<group>"; };
 		52240306221A4AC000B0EE3D /* Sork.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sork.swift; sourceTree = "<group>"; };
+		5224030A221A4C4C00B0EE3D /* LeetCode001.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeetCode001.swift; sourceTree = "<group>"; };
+		5224033A221BE53900B0EE3D /* LeetCode167.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeetCode167.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +64,7 @@
 			children = (
 				522402F0221A4AA300B0EE3D /* AppDelegate.swift */,
 				522402F2221A4AA300B0EE3D /* ViewController.swift */,
-				52240302221A4AB800B0EE3D /* LeetCode */,
+				52240309221A4C4C00B0EE3D /* LeetCode */,
 				52240305221A4AC000B0EE3D /* BinarySearch.swift */,
 				52240306221A4AC000B0EE3D /* Sork.swift */,
 				522402F4221A4AA300B0EE3D /* Main.storyboard */,
@@ -73,13 +75,13 @@
 			path = Algorithm;
 			sourceTree = "<group>";
 		};
-		52240302221A4AB800B0EE3D /* LeetCode */ = {
+		52240309221A4C4C00B0EE3D /* LeetCode */ = {
 			isa = PBXGroup;
 			children = (
-				52240303221A4AB800B0EE3D /* LeetCode01.swift */,
+				5224030A221A4C4C00B0EE3D /* LeetCode001.swift */,
+				5224033A221BE53900B0EE3D /* LeetCode167.swift */,
 			);
-			name = LeetCode;
-			path = ../../LeetCode/LeetCode/LeetCode;
+			path = LeetCode;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,10 +156,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				52240307221A4AC000B0EE3D /* BinarySearch.swift in Sources */,
-				52240304221A4AB800B0EE3D /* LeetCode01.swift in Sources */,
 				522402F3221A4AA300B0EE3D /* ViewController.swift in Sources */,
 				52240308221A4AC000B0EE3D /* Sork.swift in Sources */,
 				522402F1221A4AA300B0EE3D /* AppDelegate.swift in Sources */,
+				5224030B221A4C4C00B0EE3D /* LeetCode001.swift in Sources */,
+				5224033B221BE53A00B0EE3D /* LeetCode167.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

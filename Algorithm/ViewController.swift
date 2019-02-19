@@ -13,11 +13,13 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        //        leetCode01()
+//      leetCode001()
         
-        //        simpleSearch()
+        leetCode167()
         
-        simpleSort()
+//        simpleSearch()
+        
+        //        simpleSort()
     }
 
 }
