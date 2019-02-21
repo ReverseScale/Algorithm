@@ -17,6 +17,7 @@
 		5224030B221A4C4C00B0EE3D /* LeetCode001.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5224030A221A4C4C00B0EE3D /* LeetCode001.swift */; };
 		5224033B221BE53A00B0EE3D /* LeetCode167.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5224033A221BE53900B0EE3D /* LeetCode167.swift */; };
 		5224033F221D132400B0EE3D /* LeetCode226.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5224033E221D132200B0EE3D /* LeetCode226.swift */; };
+		52240341221E68A400B0EE3D /* LeetCode002.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52240340221E68A400B0EE3D /* LeetCode002.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		5224030A221A4C4C00B0EE3D /* LeetCode001.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeetCode001.swift; sourceTree = "<group>"; };
 		5224033A221BE53900B0EE3D /* LeetCode167.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeetCode167.swift; sourceTree = "<group>"; };
 		5224033E221D132200B0EE3D /* LeetCode226.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeetCode226.swift; sourceTree = "<group>"; };
+		52240340221E68A400B0EE3D /* LeetCode002.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeetCode002.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				5224030A221A4C4C00B0EE3D /* LeetCode001.swift */,
 				5224033A221BE53900B0EE3D /* LeetCode167.swift */,
 				5224033E221D132200B0EE3D /* LeetCode226.swift */,
+				52240340221E68A400B0EE3D /* LeetCode002.swift */,
 			);
 			path = LeetCode;
 			sourceTree = "<group>";
@@ -161,6 +164,7 @@
 				52240307221A4AC000B0EE3D /* BinarySearch.swift in Sources */,
 				522402F3221A4AA300B0EE3D /* ViewController.swift in Sources */,
 				52240308221A4AC000B0EE3D /* Sork.swift in Sources */,
+				52240341221E68A400B0EE3D /* LeetCode002.swift in Sources */,
 				522402F1221A4AA300B0EE3D /* AppDelegate.swift in Sources */,
 				5224030B221A4C4C00B0EE3D /* LeetCode001.swift in Sources */,
 				5224033B221BE53A00B0EE3D /* LeetCode167.swift in Sources */,
