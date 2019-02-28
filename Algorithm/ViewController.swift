@@ -31,7 +31,9 @@ class ViewController: UIViewController {
         
 //        leetCode14()
         
-        leetCode27()
+//        leetCode27()
+        
+        leetCode28()
         
 //        simpleSearch()
         

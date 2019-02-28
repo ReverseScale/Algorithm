@@ -23,6 +23,7 @@
 		522C55DD2224F897002A2E20 /* LeetCode58.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522C55DC2224F897002A2E20 /* LeetCode58.swift */; };
 		522C55DF2224FE4D002A2E20 /* LeetCode14.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522C55DE2224FE4D002A2E20 /* LeetCode14.swift */; };
 		52E33042222652B600F6DFA7 /* LeetCode27.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E33041222652B600F6DFA7 /* LeetCode27.swift */; };
+		52E330DA2227968700F6DFA7 /* LeetCode28.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E330D92227968700F6DFA7 /* LeetCode28.swift */; };
 		B08D73CD222254CF003E1F2C /* LeetCode007.swift in Sources */ = {isa = PBXBuildFile; fileRef = B08D73CC222254CF003E1F2C /* LeetCode007.swift */; };
 /* End PBXBuildFile section */
 
@@ -45,6 +46,7 @@
 		522C55DC2224F897002A2E20 /* LeetCode58.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeetCode58.swift; sourceTree = "<group>"; };
 		522C55DE2224FE4D002A2E20 /* LeetCode14.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeetCode14.swift; sourceTree = "<group>"; };
 		52E33041222652B600F6DFA7 /* LeetCode27.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeetCode27.swift; sourceTree = "<group>"; };
+		52E330D92227968700F6DFA7 /* LeetCode28.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeetCode28.swift; sourceTree = "<group>"; };
 		B08D73CC222254CF003E1F2C /* LeetCode007.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeetCode007.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -104,6 +106,7 @@
 				522C55DC2224F897002A2E20 /* LeetCode58.swift */,
 				522C55DE2224FE4D002A2E20 /* LeetCode14.swift */,
 				52E33041222652B600F6DFA7 /* LeetCode27.swift */,
+				52E330D92227968700F6DFA7 /* LeetCode28.swift */,
 			);
 			path = LeetCode;
 			sourceTree = "<group>";
@@ -180,6 +183,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				52240307221A4AC000B0EE3D /* BinarySearch.swift in Sources */,
+				52E330DA2227968700F6DFA7 /* LeetCode28.swift in Sources */,
 				522C55DA2223A4FD002A2E20 /* LeetCode009.swift in Sources */,
 				522402F3221A4AA300B0EE3D /* ViewController.swift in Sources */,
 				522C55DF2224FE4D002A2E20 /* LeetCode14.swift in Sources */,
