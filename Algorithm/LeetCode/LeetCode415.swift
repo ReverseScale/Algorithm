@@ -20,7 +20,10 @@ extension ViewController {
      你不能使用任何內建 BigInteger 库， 也不能直接将输入的字符串转换为整数形式。
      */
     func leetCode415() {
+        
         print(addStrings("1234", "21345"))
+        print(addStrings2("1234", "21345"))
+
     }
     
     func addStrings(_ num1: String, _ num2: String) -> String {
@@ -53,6 +56,35 @@ extension ViewController {
             result = String(carry) + result
         }
         
+        return result
+    }
+    
+    func addStrings2(_ num1: String, _ num2: String) -> String {
+        let arr1 = Array(num1)
+        let arr2 = Array(num2)
+        var carry = 0
+        var result = ""
+        
+        for i in 0..<max(arr1.count, arr2.count){
+            if arr1.count - i - 1 >= 0 {
+                carry += Int(String(arr1[arr1.count - i - 1]))!
+            }
+            if arr2.count - i - 1 >= 0 {
+                carry += Int(String(arr2[arr2.count - i - 1]))!
+            }
+            
+            if carry > 9 {
+                result = String(carry-10) + result
+                carry = 1
+            } else {
+                result = String(carry) + result
+                carry = 0
+            }
+        }
+        
+        if carry > 0 {
+            result = String(carry) + result
+        }
         return result
     }
 }
