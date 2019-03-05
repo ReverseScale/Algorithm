@@ -37,7 +37,9 @@ class ViewController: UIViewController {
         
 //        leetCode35()
         
-        leetCode415()
+//        leetCode415()
+        
+        leetCode66()
         
 //        simpleSearch()
         
