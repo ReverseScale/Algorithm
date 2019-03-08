@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		52040C6222322727000CB8BC /* LeetCode263.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52040C6122322727000CB8BC /* LeetCode263.swift */; };
 		522402F1221A4AA300B0EE3D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522402F0221A4AA300B0EE3D /* AppDelegate.swift */; };
 		522402F3221A4AA300B0EE3D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522402F2221A4AA300B0EE3D /* ViewController.swift */; };
 		522402F6221A4AA300B0EE3D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 522402F4221A4AA300B0EE3D /* Main.storyboard */; };
@@ -32,6 +33,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		52040C6122322727000CB8BC /* LeetCode263.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeetCode263.swift; sourceTree = "<group>"; };
 		522402ED221A4AA300B0EE3D /* Algorithm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Algorithm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		522402F0221A4AA300B0EE3D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		522402F2221A4AA300B0EE3D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -119,6 +121,7 @@
 				52B23181222CE05700A28F3E /* LeetCode415.swift */,
 				52B231B1222E374800A28F3E /* LeetCode66.swift */,
 				52B231CD2230D55200A28F3E /* LeetCode43.swift */,
+				52040C6122322727000CB8BC /* LeetCode263.swift */,
 			);
 			path = LeetCode;
 			sourceTree = "<group>";
@@ -194,6 +197,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52040C6222322727000CB8BC /* LeetCode263.swift in Sources */,
 				52240307221A4AC000B0EE3D /* BinarySearch.swift in Sources */,
 				52E330DA2227968700F6DFA7 /* LeetCode28.swift in Sources */,
 				52B231B2222E374800A28F3E /* LeetCode66.swift in Sources */,
