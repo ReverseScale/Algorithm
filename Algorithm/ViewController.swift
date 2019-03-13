@@ -13,49 +13,50 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-//        leetCode001()
-        
+//        simpleSearch()
+//
+//        simpleSort()
+//
+//        
+//        leetCode1()
+//        
 //        leetCode167()
-        
+//        
 //        leetCode226()
-        
-//        leetCode002()
-        
-//        leetCode003()
-        
-//        leetCode007()
-        
-//        leetCode009()
-        
+//        
+//        leetCode2()
+//        
+//        leetCode3()
+//        
+//        leetCode7()
+//        
+//        leetCode9()
+//        
 //        leetCode58()
-        
+//        
 //        leetCode14()
-        
+//        
 //        leetCode27()
-        
+//        
 //        leetCode28()
-        
+//        
 //        leetCode35()
-        
+//        
 //        leetCode415()
-        
+//        
 //        leetCode66()
-        
+//        
 //        leetCode43()
-        
+//        
 //        leetCode263()
-        
+//        
 //        leetCode290()
-        
+//        
 //        leetCode565()
-        
+//        
 //        leetCode21()
         
         leetCode206()
-        
-//        simpleSearch()
-        
-//        simpleSort()
     }
 
 }

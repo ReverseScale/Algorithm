@@ -1,5 +1,5 @@
 //
-//  LeetCode01.swift
+//  LeetCode1.swift
 //  LeetCode
 //
 //  Created by Steven Xie on 2019/2/18.
@@ -30,7 +30,7 @@ extension ViewController {
      
      你能不将整数转为字符串来解决这个问题吗？
      */
-    func leetCode009() {
+    func leetCode9() {
 //        print(isPalindrome(11122111))
         print(1 % 10)
         print(isPalindromeNotString(101))

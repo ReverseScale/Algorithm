@@ -22,7 +22,7 @@ extension ViewController {
      输出：7 -> 0 -> 8
      原因：342 + 465 = 807
      */
-    func leetCode002() {
+    func leetCode2() {
         
         let l1 = ListNode(2)
         let l2 = ListNode(4)

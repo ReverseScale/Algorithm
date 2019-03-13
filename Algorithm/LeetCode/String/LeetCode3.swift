@@ -1,5 +1,5 @@
 //
-//  LeetCode01.swift
+//  LeetCode1.swift
 //  LeetCode
 //
 //  Created by Steven Xie on 2019/2/18.
@@ -30,7 +30,7 @@ extension ViewController {
      请注意，你的答案必须是 子串 的长度，"pwke" 是一个子序列，不是子串。
 
      */
-    func leetCode003() {
+    func leetCode3() {
         let str = "abcabcbb"
         print(lengthOfLongestSubstring(str))
     }
