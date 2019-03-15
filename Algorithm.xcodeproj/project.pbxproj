@@ -123,17 +123,17 @@
 				52DF3D472238C551006728D5 /* String */,
 				52DF3D482238C5EA006728D5 /* Math */,
 				52DF3D442238C48A006728D5 /* Linked List */,
-				528699FB223B73AA00021D06 /* Hash */,
+				528699FB223B73AA00021D06 /* Hash Table */,
 			);
 			path = LeetCode;
 			sourceTree = "<group>";
 		};
-		528699FB223B73AA00021D06 /* Hash */ = {
+		528699FB223B73AA00021D06 /* Hash Table */ = {
 			isa = PBXGroup;
 			children = (
 				528699F8223B736300021D06 /* LeetCode575.swift */,
 			);
-			path = Hash;
+			path = "Hash Table";
 			sourceTree = "<group>";
 		};
 		52DF3D442238C48A006728D5 /* Linked List */ = {
