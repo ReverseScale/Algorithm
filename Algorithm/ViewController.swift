@@ -60,7 +60,9 @@ class ViewController: UIViewController {
         
 //        leetCode83()
         
-        leetCode575()
+//        leetCode575()
+        
+        leetCode100()
     }
 
 }
