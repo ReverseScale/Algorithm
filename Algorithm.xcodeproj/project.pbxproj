@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2261108424BD44DE0048A216 /* LeetCode26.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2261108324BD44DE0048A216 /* LeetCode26.swift */; };
+		2261108624BD4C930048A216 /* LeetCode11.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2261108524BD4C930048A216 /* LeetCode11.swift */; };
 		52040C6222322727000CB8BC /* LeetCode263.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52040C6122322727000CB8BC /* LeetCode263.swift */; };
 		521D8F7822449C7C0075283B /* LeetCode283.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521D8F7722449C7C0075283B /* LeetCode283.swift */; };
 		522402F1221A4AA300B0EE3D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522402F0221A4AA300B0EE3D /* AppDelegate.swift */; };
@@ -43,6 +45,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2261108324BD44DE0048A216 /* LeetCode26.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeetCode26.swift; sourceTree = "<group>"; };
+		2261108524BD4C930048A216 /* LeetCode11.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeetCode11.swift; sourceTree = "<group>"; };
 		52040C6122322727000CB8BC /* LeetCode263.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeetCode263.swift; sourceTree = "<group>"; };
 		521D8F7722449C7C0075283B /* LeetCode283.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeetCode283.swift; sourceTree = "<group>"; };
 		522402ED221A4AA300B0EE3D /* Algorithm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Algorithm.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -160,6 +164,8 @@
 			isa = PBXGroup;
 			children = (
 				5224030A221A4C4C00B0EE3D /* LeetCode1.swift */,
+				2261108524BD4C930048A216 /* LeetCode11.swift */,
+				2261108324BD44DE0048A216 /* LeetCode26.swift */,
 				52E33041222652B600F6DFA7 /* LeetCode27.swift */,
 				52B2317C2228E7DE00A28F3E /* LeetCode35.swift */,
 				52B231CD2230D55200A28F3E /* LeetCode43.swift */,
@@ -293,6 +299,7 @@
 			files = (
 				52040C6222322727000CB8BC /* LeetCode263.swift in Sources */,
 				52AE04062241FE2600F8A22A /* LeetCode349.swift in Sources */,
+				2261108424BD44DE0048A216 /* LeetCode26.swift in Sources */,
 				52DF3D432238C38B006728D5 /* LeetCode206.swift in Sources */,
 				52240307221A4AC000B0EE3D /* BinarySearch.swift in Sources */,
 				52AE0404223F54C400F8A22A /* LeetCode100.swift in Sources */,
@@ -308,6 +315,7 @@
 				521D8F7822449C7C0075283B /* LeetCode283.swift in Sources */,
 				52B1D099223A19F600E79831 /* LeetCode83.swift in Sources */,
 				B08D73CD222254CF003E1F2C /* LeetCode7.swift in Sources */,
+				2261108624BD4C930048A216 /* LeetCode11.swift in Sources */,
 				52B2317D2228E7DE00A28F3E /* LeetCode35.swift in Sources */,
 				52E33042222652B600F6DFA7 /* LeetCode27.swift in Sources */,
 				522C55CB221FBFC2002A2E20 /* LeetCode3.swift in Sources */,
@@ -467,7 +475,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = MQ4BAK6QRP;
+				DEVELOPMENT_TEAM = 6PA8SJWBRK;
 				INFOPLIST_FILE = Algorithm/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -485,7 +493,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = MQ4BAK6QRP;
+				DEVELOPMENT_TEAM = 6PA8SJWBRK;
 				INFOPLIST_FILE = Algorithm/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

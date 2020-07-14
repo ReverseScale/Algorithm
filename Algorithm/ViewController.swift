@@ -16,7 +16,6 @@ class ViewController: UIViewController {
 //        simpleSearch()
 //
 //        simpleSort()
-//
 //        
 //        leetCode1()
 //        
@@ -27,8 +26,12 @@ class ViewController: UIViewController {
 //        leetCode2()
 //        
 //        leetCode3()
+//
+//        leetCode26()
 
-        leetCode283()
+        leetCode11()
+
+//        leetCode283()
 //        
 //        leetCode7()
 //        
@@ -70,6 +73,5 @@ class ViewController: UIViewController {
         
 //        leetCode344()
     }
-
 }
 
