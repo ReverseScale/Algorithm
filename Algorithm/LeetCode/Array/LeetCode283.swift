@@ -7,6 +7,11 @@
 //
 
 extension ViewController {
+
+    func leetCode283() {
+        var array = [0,1,0,3,12]
+        print(moveZeroes03(&array))
+    }
     
     /*
      283. 移动零
@@ -22,16 +27,20 @@ extension ViewController {
      尽量减少操作次数。
      */
     
-    func moveZeroes(_ nums: inout [Int]) {
+    func moveZeroes(_ nums: inout [Int]) -> [Int] {
+        // ---
         let count = nums.count
         nums = nums.filter { $0 != 0 }
         let newCount = nums.count
         for _ in 0..<count - newCount {
             nums.append(0)
         }
+        // ---
+        return nums
     }
     
-    func moveZeroes02(_ nums: inout [Int]) {
+    func moveZeroes02(_ nums: inout [Int]) -> [Int] {
+        // ---
         var j = 0
         for i in 0..<nums.count {
             if nums[i] != 0 {
@@ -41,5 +50,20 @@ extension ViewController {
                 j += 1
             }
         }
+        // ---
+        return nums
+    }
+
+    func moveZeroes03(_ nums: inout [Int]) -> [Int] {
+        // ---
+        var j = 0
+        for i in 0..<nums.count {
+            if nums[i] != 0 {
+                nums.swapAt(i, j)
+                j += 1
+            }
+        }
+        // ---
+        return nums
     }
 }

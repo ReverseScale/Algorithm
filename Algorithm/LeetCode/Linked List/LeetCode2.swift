@@ -37,8 +37,12 @@ extension ViewController {
 
         r1.next = r2
         r2.next = r3
-        
-        print(addTwoNumbers(l1, r1)!.val)
+
+        let s1 = addTwoNumbersA(l1, r1)!.val
+        let s2 = addTwoNumbersA(l1, r1)!.next?.val ?? 0
+        let s3 = addTwoNumbersA(l1, r1)!.next?.next?.val ?? 0
+
+        print("\(s1) -> \(s2) -> \(s3)")
     }
     
     func addTwoNumbers(_ l1: ListNode?, _ l2: ListNode?) -> ListNode? {
@@ -68,6 +72,34 @@ extension ViewController {
         }
         
         return headNode.next
+    }
+
+    func addTwoNumbersA(_ l1: ListNode?, _ l2: ListNode?) -> ListNode? {
+        var node1 = l1
+        var node2 = l2
+        var headNode: ListNode?
+        var nextNode: ListNode?
+        var carry: Int = 0
+        while node1 != nil || node2 != nil {
+            let node1val = node1?.val ?? 0
+            let node2val = node2?.val ?? 0
+            node1 = node1?.next
+            node2 = node2?.next
+            var sum = node1val + node2val + carry
+            carry = sum < 10 ? 0 : 1
+            sum = sum % 10
+            if nextNode == nil {
+                nextNode = ListNode.init(sum)
+                headNode = nextNode
+            } else {
+                nextNode?.next = ListNode.init(sum)
+                nextNode = nextNode?.next
+            }
+        }
+        if carry != 0 {
+            nextNode?.next = ListNode.init(carry)
+        }
+        return headNode
     }
     
     public class ListNode {
