@@ -8,4 +8,5 @@ Organize commonly used algorithms and leetcode topics.
   * Tree
   * String
   * Math
+  * Number
   * Linked List
