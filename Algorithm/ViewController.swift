@@ -29,7 +29,9 @@ class ViewController: UIViewController {
 //
 //        leetCode26()
 
-        leetCode11()
+//        leetCode11()
+
+        leetCode22()
 
 //        leetCode283()
 //        
